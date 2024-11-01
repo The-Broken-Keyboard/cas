@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    height: 100vh; /* Fixed height to prevent scrolling */
     display: grid;
     grid-template-columns: 6fr 4fr;
     grid-template-rows: 0.05fr auto auto 0.05fr;
@@ -13,7 +12,6 @@ body {
         "text form"
         "footer footer";
     background-color: #fff;
-    overflow: hidden; /* Prevent scrolling */
 }
 
 .logo {
@@ -183,10 +181,8 @@ footer {
     body {
         display: flex;
         flex-direction: column;
-        min-height: 100vh;
         padding: 0 20px;
         height: 100vh;
-        overflow: hidden;
     }
 
     .logo {
