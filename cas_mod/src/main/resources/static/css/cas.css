@@ -45,6 +45,22 @@ body {
     
 }
 
+#logoutBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 25vh;
+    width: 55vw;
+    min-height: fit-content;
+    min-width: fit-content;
+    background-color: #d6b8f0;
+    margin-top:30vh;
+    padding:10px;
+    font-size:18px;
+}
+
 a {
     color: #153e50;
     color: var(--cas-theme-primary, #153e50);
@@ -89,8 +105,9 @@ main{
 }
 
 div#content {
-    box-shadow: 1px 1px 3px #888;
+    box-shadow: 1px 1px 3px #fffdfd;
 }
+
 
 /* widgets */
 
@@ -350,7 +367,7 @@ form button i.mdi {
     }
 }
 
-.cas-footer {
+/* .cas-footer {
     background-color: var(--mdc-theme-primary, #6200ee);
     color: whitesmoke;
 }
@@ -366,7 +383,7 @@ form button i.mdi {
 
 .cas-footer > *:last-child {
     margin: 0;
-}
+} */
 
 .cas-notification-dialog .mdc-dialog__content > .cas-notification-message:not(:last-child) {
     border-bottom: 1px solid rgba(0, 0, 0, .2);
@@ -1204,6 +1221,16 @@ footer {
     top: 20px;
     right: 20px;
 }
+.logo-right-logout{
+    position: absolute;
+    align-self: center;
+    margin-top: 10vh;
+    top: 20px;
+    /* right: 20px; */
+}
+.logo-right-logout img {
+    width: clamp(80px, 12vw, 200px);
+}
 
 .logo-right img {
     width: clamp(80px, 12vw, 200px);
@@ -1236,11 +1263,12 @@ footer {
         /* padding: 20px; */
         justify-content: flex-start;
         min-width: fit-content;
-        min-height: fit-content;
+        height: fit-content;
         align-items: center;
         align-self: center;
         margin-bottom: 0px;
         padding-bottom: 0px;
+        
     }
 
     .logo-right {
@@ -1303,14 +1331,24 @@ footer {
         text-align: left;
     }
 
+    .logo-right-logout{
+        position: absolute;
+        align-self: center;
+        margin-top: 10vh;
+        top: 20px;
+        /* right: 20px; */
+    }
+    .logo-right-logout img {
+        width: clamp(200px, 12vw, 200px);
+    }
     .right-section {
         width: 70%;
-        min-height: fit-content;
+        height: fit-content;
         /* margin-right:1vw; */
         margin-top:0vh;
         align-items: center;
         align-self: center;
-        margin-bottom:0px;
+        margin-bottom:7vh;
         padding-bottom: 0px;
     }
     .form-group{
@@ -1359,6 +1397,21 @@ footer {
        
     }
 
+    #logoutBody{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        height: 25vh;
+        width: 55vw;
+        min-height: fit-content;
+        min-width: fit-content;
+        background-color: #d6b8f0;
+        padding: 20px;
+        font-size:18px;
+    }
+
     .password-wrapper {
         width: 100%;
     }
@@ -1386,7 +1439,8 @@ footer {
         /* align-self:center; */
         align-items: center;
         min-width: fit-content;
-        min-height: fit-content;
+        height: fit-content;
+        margin-bottom: 5vh;
     }
 
     .logo-right {
@@ -1399,6 +1453,34 @@ footer {
         margin-left: 7vw;
         /* margin-bottom: 40px; */
       
+    }
+    .logo-right-logout{
+
+        position: relative;
+        align-self: center;
+        margin-top: 2vh;
+        top: 20px;
+    
+        /* right: 20px; */
+    }
+    .logo-right-logout img {
+        width: clamp(250px, 12vw, 250px);
+    }
+    #logoutBody{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        height: 25vh;
+        width: 55vw;
+        min-height: fit-content;
+        min-width: fit-content;
+        background-color: #d6b8f0;
+        padding: 20px;
+        margin-top:10vh;
+        font-size:18px;
+        
     }
 
     .logo-right img {
@@ -1448,7 +1530,7 @@ footer {
 
     .right-section {
         width: 70%;
-        min-height: fit-content;
+        height: fit-content;
         margin-left: 0vw;
         margin-right:0vw;
         margin-top:0vh;
