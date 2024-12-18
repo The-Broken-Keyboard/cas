@@ -122,12 +122,12 @@
                                     <!-- <span class="mdc-notched-outline__trailing"></span> -->
                                     <!-- </span> -->
                                     <div class="form-group">
-                                        <input class="mdc-text-field__input form-control" id="username" size="25"
+                                        <input class="mdc-text-field__input form-control required" id="username" size="25"
                                             type="text" name="Username"
                                             th:readonly="!${@casThymeleafTemplatesDirector.isLoginFormUsernameInputVisible(#vars)}"
                                             th:field="*{username}"
                                             th:accesskey="#{screen.welcome.label.netid.accesskey}" autocapitalize="none"
-                                            spellcheck="false" placeholder="Email" autocomplete="username" required />
+                                            spellcheck="false" placeholder="Email" autocomplete="off" tabindex="1" th:disabled="${guaEnabled}" required />
                                     </div>
                                 </section>
 
