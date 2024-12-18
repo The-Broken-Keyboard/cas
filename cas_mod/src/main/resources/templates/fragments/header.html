@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -151,4 +151,32 @@
 
 </body>
 
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <title>Header Fragment</title>
+    <link href="../../static/css/cas.css" rel="stylesheet" th:remove="tag" />
+</head>
+<body>
+    <header th:fragment="header" role="banner">
+        <nav class="row container navbar navbar-expand-md fixed-top" style="background-color: transparent; border-bottom: 1px solid black; position: relative; margin: 0 auto;">
+            <a class="col-md navbar-brand" href="#" style="display: flex; justify-content: center;">
+                <img class="logo" src="images/iiit-new.png" style="height: 80px; width: auto;">
+            </a>
+            <div class="col-md-8"  style="display: flex; justify-content: center;">
+                <h4 class="navbar-text" style="color: #032955; margin-right: 0;">
+                    Central Authentication Service (CAS)
+                </h4>
+            </div>
+        </nav>
+    </header>
+
+</body>
 </html>

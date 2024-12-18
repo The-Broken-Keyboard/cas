@@ -344,16 +344,3 @@ function initializeAceEditor(id, mode="json") {
     beautify.beautify(editor.session);
     return editor;
 }
-
-
-function togglePasswordVisibility() {
-    const passwordInput = document.getElementById('password');
-    const eyeIcon = document.querySelector('.eye-icon');
-    if (passwordInput.type === 'password') {
-        passwordInput.type = 'text';
-        eyeIcon.textContent = '🙈';  // Change icon when password is visible
-    } else {
-        passwordInput.type = 'password';
-        eyeIcon.textContent = '👁';  // Change back to eye icon when hidden
-    }
-}
