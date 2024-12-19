@@ -1106,7 +1106,7 @@ select.palantir {
 }
 
 .title {
-  font-size: clamp(3rem, 8vw, 7.5rem); /* 48px to 120px */
+  font-size: clamp(3rem, 8.5vw, 7.5rem); /* 48px to 120px */
   color: #4b4b93;
   letter-spacing: 0.1em;
   font-weight: bold;
@@ -1122,7 +1122,7 @@ select.palantir {
 }
 
 .portal {
-  font-size: clamp(2rem, 4vw, 3.125rem); /* 32px to 50px */
+  font-size: clamp(2rem, 3.5vw, 3.125rem); /* 32px to 50px */
   font-weight: bold;
   opacity: 0.7;
   color: #707070;
@@ -1426,7 +1426,7 @@ footer {
     min-height: fit-content;
     font-size: 14px;
     text-align: center;
-    margin-top: 1vh;
+    margin-top: 3vh;
     margin-bottom: 0px;
     padding-bottom: 0px;
     opacity: 0.7;
@@ -1454,7 +1454,7 @@ footer {
   footer {
     position: static;
     max-height: fit-content;
-    font-size: 10px;
+    font-size: 13px;
     margin-top: 0vh;
     font-family: "Times New Roman", Times, serif;
   }
@@ -1600,9 +1600,9 @@ footer {
     font-weight: bold;
     max-width: 100%;
     min-height: fit-content;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
-    margin-top: 1vh;
+    margin-top: 4vh;
     opacity: 0.7;
   }
 
@@ -1613,7 +1613,7 @@ footer {
   footer {
     position: static;
     max-height: fit-content;
-    font-size: 12px;
+    font-size: 15px;
 
     font-family: "Times New Roman", Times, serif;
   }
