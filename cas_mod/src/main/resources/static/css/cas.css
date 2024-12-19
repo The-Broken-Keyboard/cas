@@ -172,7 +172,7 @@ header > nav .cas-brand .cas-logo {
   padding: 2rem 2.5rem;
   flex: 1 1 auto;
   width: 100vw !important;
-  height: 100vh !important;
+  height: 90vh !important;
   /* IE flex fix */
 }
 
@@ -296,6 +296,7 @@ form button i.mdi {
 .banner-danger h5:before {
   content: "\F0027";
   font-size: 24px;
+  margin-right: 10px;
   font: normal normal normal 24px/1 "Material Design Icons";
 }
 
@@ -357,7 +358,7 @@ form button i.mdi {
 }
 
 .banner-dismissible {
-  padding-right: 4rem;
+  padding-right: 10px;
 }
 
 .banner-dismissible .close {

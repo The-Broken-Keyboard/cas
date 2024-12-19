@@ -163,7 +163,10 @@
                     th:if="${#fields.hasErrors('*')}"
                     role="alert"
                   >
-                    <h2 th:utext="#{screen.authentication.error.title}">
+                    <h2
+                      th:utext="#{screen.authentication.error.title}"
+                      style="text-align: center"
+                    >
                       Authentication Failure
                     </h2>
                     <p
@@ -226,20 +229,23 @@
                   </div>
                   <a
                     href="https://passwordreset.iiit.ac.in/forgotpassword/"
-                    style="margin: 0px; font-size: 14px;"
+                    style="margin: 0px; font-size: 14px"
                     th:text="#{screen.pm.button.forgotpwd}"
                     >Forgot Password?</a
                   >
                   <a
                     href="https://passwordreset.iiit.ac.in/"
                     class="reset-password"
-                    style="margin-bottom: 0px; font-size: 14px;"
+                    style="margin-bottom: 0px; font-size: 14px"
                     th:text="#{screen.pm.button.resetPassword}"
                   >
                     Reset Password
                   </a>
 
-                  <div class="mdc-text-field-helper-line invalid-feedback" style="display: none;">
+                  <div
+                    class="mdc-text-field-helper-line invalid-feedback"
+                    style="display: none"
+                  >
                     <div
                       class="mdc-text-field-helper-text mdc-text-field-helper-text--validation-msg"
                       aria-hidden="true"
