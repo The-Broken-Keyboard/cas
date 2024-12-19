@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=PT+Mono';
+@import "https://fonts.googleapis.com/css?family=PT+Mono";
 #loggingDashboard .tab-pane {
   padding: 20px 10px;
   border: 1px solid #ddd;
@@ -42,7 +42,7 @@
   border-radius: 0.5em;
   padding: 1em;
   /* space on all directions */
-  font-family: 'PT Mono', monospace;
+  font-family: "PT Mono", monospace;
   font-size: 1em;
   width: 100%;
   height: 100%;
