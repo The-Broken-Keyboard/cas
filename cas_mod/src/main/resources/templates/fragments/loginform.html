@@ -227,10 +227,19 @@
                   <a
                     href="https://passwordreset.iiit.ac.in/forgotpassword/"
                     style="margin: 0px"
+                    th:text="#{screen.pm.button.forgotpwd}"
                     >Forgot Password?</a
                   >
+                  <a
+                    href="https://passwordreset.iiit.ac.in/"
+                    class="reset-password"
+                    style="margin-bottom: 0px"
+                    th:text="#{screen.pm.button.resetPassword}"
+                  >
+                    Reset Password
+                  </a>
 
-                  <div class="mdc-text-field-helper-line invalid-feedback">
+                  <div class="mdc-text-field-helper-line invalid-feedback" style="display: none;">
                     <div
                       class="mdc-text-field-helper-text mdc-text-field-helper-text--validation-msg"
                       aria-hidden="true"
@@ -451,16 +460,24 @@
                   <!-- <div th:replace="~{fragments/submitbutton :: submitButton (messageKey='screen.welcome.button.login')}"/> -->
                   <button
                     type="submit"
+                    id="login-submit"
                     style="box-sizing: content-box; padding: 0px; margin: 0px"
+                    th:text="#{screen.welcome.button.login}"
+                    disabled
                   >
                     Log In
                   </button>
                 </div>
               </form>
 
-              <a href="https://passwordreset.iiit.ac.in/" class="reset-password"
-                >Reset Password</a
+              <!-- <a
+                href="https://passwordreset.iiit.ac.in/"
+                class="reset-password"
+                th:text="#{screen.pm.button.resetPassword}"
               >
+                Reset Password
+              </a> -->
+
               <div class="additional-text-2">
                 Please make sure you logout from all the applications and close
                 the browser window when you have finished using the system.

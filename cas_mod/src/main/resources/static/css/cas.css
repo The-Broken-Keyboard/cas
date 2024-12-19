@@ -1206,6 +1206,11 @@ select.palantir {
   text-transform: none;
 }
 
+.login-form button:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
 .password-wrapper {
   position: relative;
   width: 100%;
@@ -1224,7 +1229,10 @@ select.palantir {
 
 .reset-password {
   display: block;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
   font-size: clamp(0.75rem, 1vw, 0.875rem);
   font-weight: 400;
   color: #707070;
@@ -1401,7 +1409,6 @@ footer {
   }
 
   .login-form button {
-    background-color: #333333;
     font-size: 18px;
     height: 50px;
     margin-top: 30px;
@@ -1578,7 +1585,6 @@ footer {
   }
 
   .login-form button {
-    background-color: #333333;
     font-size: 18px;
     height: 50px;
     margin-top: 30px;
